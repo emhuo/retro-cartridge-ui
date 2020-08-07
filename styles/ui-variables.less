@@ -33,8 +33,11 @@
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: hsl(222,6%,22%);
-@base-border-color:     darken(@base-background-color, 8%);
+@base-background-color-lighter: #717b9b;
+@base-background-color: #2f3443;
+@base-background-color-darker: #444b61;
+@base-border-color: #252934;
+@base-border-color-lighter: #444b61;
 
 // Component colors
 @pane-item-background-color: @base-background-color;
@@ -60,7 +63,7 @@
 @button-background-color-selected: @button-background-color-hover;
 @button-border-color:              @base-border-color;
 
-@tab-bar-background-color:    @base-background-color;
+@tab-bar-background-color:    @base-background-color-darker;
 @tab-bar-border-color:        @base-border-color;
 @tab-background-color:        @tab-bar-background-color;
 @tab-background-color-active: lighten(@tab-bar-background-color, 10%);
