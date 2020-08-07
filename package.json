@@ -1,13 +1,14 @@
 {
-  "name": "ui-theme-template",
+  "name": "retro-cartridge-ui",
   "theme": "ui",
   "version": "0.0.0",
-  "description": "A short description of your UI theme",
+  "description": "An Atom editor theme inspired by retro game console palettes",
   "keywords": [
+    "atom",
     "ui",
     "theme"
   ],
-  "repository": "https://github.com/atom-community/ui-theme-template",
+  "repository": "https://github.com/emhuo/retro-cartridge-ui.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
